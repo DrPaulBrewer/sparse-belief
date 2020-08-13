@@ -6,7 +6,8 @@
 const { SparseBelief } = require('sparse-belief');
 
 // suppose category k can generate numbers 1,2,...,k uniformly
-// then the likehood function for observing x when the category is k is 1/k on k's domain and 0 elsewhere
+// then the likehood function for observing x when the category is k
+//             is 1/k on k's domain and 0 elsewhere
 
 function likelihood(x,k){
   if ((x>=1) && (x<=k))
