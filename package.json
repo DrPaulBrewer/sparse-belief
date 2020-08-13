@@ -1,6 +1,6 @@
 {
   "name": "sparse-belief",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sparse belief manager using Bayes law to update belief after an observation",
   "main": "index.js",
   "scripts": {
